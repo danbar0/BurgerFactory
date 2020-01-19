@@ -1,3 +1,6 @@
+#ifndef BURGER_HPP
+#define BURGER_HPP
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -17,3 +20,5 @@ public:
 	std::vector<std::string> toppings; 
 
 };
+
+#endif

@@ -12,6 +12,10 @@ Burger::~Burger(void) {
 
 void Burger::prepare(void) {
 	cout << "Preparing " << this->name << endl; 
+	cout << "Assembling burger..." << endl;
+	for (auto i : this->toppings) {
+		cout << " " << this->toppings.at(i) << endl; 
+	}
 }
 
 void Burger::cook(void) {

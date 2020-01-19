@@ -1,3 +1,6 @@
+#ifndef BURGERFACTORY_HPP
+#define BURGERFACTORY_HPP
+
 #include <iostream>
 #include "Burger.hpp"
 
@@ -11,3 +14,4 @@ public:
 
 };
 
+#endif

@@ -15,6 +15,8 @@ public:
 		this->name = "Pineappleburger";
 		this->cheese = "Vegan";
 		this->patty = "Pineapple";
+
+		this->toppings.insert("test");
 	}
 };
 

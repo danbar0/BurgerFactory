@@ -21,7 +21,7 @@ Burger* BurgerFactory::orderBurger(std::string type) {
 }
 
 Burger* BurgerFactory::createBurger(std::string type) {
-
+	return nullptr; 
 }
 
 
